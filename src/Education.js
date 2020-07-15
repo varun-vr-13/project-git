@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import data from './Data.json'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
-
+import {Table} from 'reactstrap'
 const  Education=(props)=>{
  const [posts,setPosts] = useState({})
    useEffect(()=>
