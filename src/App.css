@@ -338,3 +338,119 @@ justify-content: space-around;
   filter:grayscale(0%);
   transform: scale(1.2);
 }
+@media all and (max-width:990px){
+
+  .App nav {
+  display:flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: rgba(192,192,192,0.65);
+
+  font-size: 20px;
+  list-style: none;
+  font-weight: 500;
+ 
+  top:0;
+ 
+text-decoration: none;
+}
+.nav li{
+  transition:all 0.2s;
+  transition-delay:0.2s;
+  display:inline-block;
+  width:100px;
+  height: 70px;
+  margin:20px auto;
+line-height:50px;
+  bottom:0;
+  justify-content:center;
+  position:relative;
+  text-align: center;
+  align-items: center;
+  padding:auto;
+text-shadow: 0 1px 0,0 2px 0 rgba(250, 241, 241,0.7);
+}
+.nav li::before{
+  content:"";
+  height:0px;
+  position:absolute;
+  bottom:20px;
+left:0;
+ width:100px;
+  color:white;
+  background:rgb(3, 3, 3);
+  transition:all 0.2s;
+
+}
+.nav li:hover::before{
+
+bottom:70px;
+height:2px;
+background:white;
+color:rgb(53, 49, 49);
+
+}
+.nav li:hover{
+
+color:rgb(53, 49, 49);
+background-color:rgba(250, 241, 241,0.5);
+}
+}
+@media all and (max-width:480px){
+
+  .App nav {
+  display:flex;
+  justify-content: space-around;
+  height: 200px;
+  background-color: rgba(192,192,192,0.65);
+
+  font-size: 20px;
+  list-style: none;
+  font-weight: 500;
+ 
+  top:0;
+ 
+text-decoration: none;
+}
+.nav li{
+  transition:all 0.2s;
+  transition-delay:0.2s;
+  display:inline-block;
+  width:150px;
+  height: 20px;
+  margin:20px auto;
+
+  bottom:0;
+  justify-content:center;
+  position:relative;
+  text-align: center;
+  align-items: center;
+  padding:auto;
+text-shadow: 0 1px 0,0 2px 0 rgba(250, 241, 241,0.7);
+}
+.nav li::before{
+  content:"";
+  height:0px;
+  position:absolute;
+  bottom:20px;
+left:0;
+ width:150px;
+  color:white;
+  background:rgb(3, 3, 3);
+  transition:all 0.2s;
+
+}
+.nav li:hover::before{
+
+bottom:20px;
+height:2px;
+background:white;
+color:rgb(53, 49, 49);
+
+}
+.nav li:hover{
+
+color:rgb(53, 49, 49);
+background-color:rgba(250, 241, 241,0.5);
+}
+}
