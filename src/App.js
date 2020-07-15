@@ -8,7 +8,7 @@ import skills from './skills'
 import pro1 from './profile.jpg'
 import data from './Data.json'
 
-
+import {HashRouter} from "react-router-dom"
 import { FacebookLoginButton } from "react-social-login-buttons";
 import { InstagramLoginButton } from "react-social-login-buttons";
 import { LinkedInLoginButton } from "react-social-login-buttons";
@@ -19,7 +19,7 @@ import ExampleComponent from 'react-rounded-image'
 import  {BrowserRouter as Router,Route,Switch,Link} from "react-router-dom"
 function App() {
   return (
-     <Router>
+     <HashRouter>
     <div className="App">
     <Nav >
     </Nav>
@@ -31,10 +31,8 @@ function App() {
     <Route  path="/Certificates" component={Certificates}></Route>
     <Route  path="/skills" component={skills}></Route>
   </Switch>
-
-   
-    </div>
-      </Router>
+  </div>
+      </HashRouter>
   );
 }
 const Home=()=>(
