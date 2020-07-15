@@ -18,7 +18,7 @@ const  Education=(props)=>{
 
     return (
      <div className="edu">
-    	<div className="table"> 
+    	<Table responsive className="table table-responsive"> 
       <h1>Education Details</h1>
     	<thead>
       
@@ -41,7 +41,7 @@ const  Education=(props)=>{
        </tr>
      ))}
       </tbody>
-    	</div>
+    	</Table>
       </div>
     	)
 }

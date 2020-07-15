@@ -39,7 +39,7 @@ const Home=()=>(
   <div className="home">
   <div className="card">
  
-hello
+
  <p className="img1"> <ExampleComponent
    image={pro1}
    imageWidth="300"
