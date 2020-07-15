@@ -1,4 +1,4 @@
-Certificates.jsimport React,{useState,useEffect} from 'react';
+import React,{useState,useEffect} from 'react';
 import data from './Data'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
