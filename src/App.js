@@ -40,14 +40,9 @@ const Home=()=>(
   <div className="card">
  
 
- <p className="img1"> <ExampleComponent
-   image={pro1}
-   imageWidth="300"
-   imageHeight="300"
-   roundedSize="10"
-
-  
-  /> </p>
+ <img className="img1 rounded-circle img-fi" src={pro1}> 
+   
+  </img>
  <h3>{data.careerobjective} </h3>
   </div>
         <div className="down">
